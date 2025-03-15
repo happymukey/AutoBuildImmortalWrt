@@ -38,7 +38,6 @@ PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
-PACKAGES="$PACKAGES luci-app-ipsec-server"
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
